@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'  // Use the Maven configured in Jenkins
+        maven 'Default'  // Use the Maven configured in Jenkins
         jdk 'Default'   // Use the default JDK configured in Jenkins
     }
 
